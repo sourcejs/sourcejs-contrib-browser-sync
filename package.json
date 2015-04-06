@@ -1,0 +1,23 @@
+{
+  "name": "sourcejs-contrib-browser-sync",
+  "version": "0.1.0",
+  "description": "Browser Sync integration into SourceJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourcejs/sourcejs-contrib-browser-sync.git"
+  },
+  "keywords": [
+    "sourcejs",
+    "plugin",
+    "browser-sync"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.5.2",
+    "deep-extend": "^0.3.3"
+  },
+  "author": "Robert Haritonov",
+  "bugs": {
+    "url": "https://github.com/sourcejs/sourcejs-contrib-browser-sync/issues"
+  },
+  "homepage": "https://github.com/sourcejs/sourcejs-contrib-browser-sync"
+}
