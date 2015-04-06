@@ -42,6 +42,7 @@ In `user/options.js` use `plugins.browserSync` object. Available options:
 ## TODO
 
 * Check the path of changed files and update only specific Spec URL
+* Add SourceJS DSS plugin support (refresh spec on CSS with docs change)
 
 ___
 

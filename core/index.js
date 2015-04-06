@@ -3,7 +3,7 @@ var browserSync = require("browser-sync");
 var userDir = global.app.get('user');
 var deepExtend = require('deep-extend');
 
-var appLogLevel = global.commander.log || global.opts.core.common.defaultLogLevel.toLowerCase();
+var appLogLevel = global.commander.log.toLowerCase() || global.opts.core.common.defaultLogLevel.toLowerCase();
 var logLevel = appLogLevel === 'info' ? 'silent' :  appLogLevel;
 
 if (appLogLevel === 'trace') logLevel = 'debug';
