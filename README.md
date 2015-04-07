@@ -1,6 +1,8 @@
 Browser Sync integration into SourceJS
 ===============
 
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/sourcejs/Source)
+
 Run [browser-sync](http://www.browsersync.io) together with [SourceJS](http://sourcejs.com). Get instant web-page updates after changing Spec file or JS, CSS assets.
 
 ___
