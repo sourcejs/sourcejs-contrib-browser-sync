@@ -25,13 +25,13 @@ In `user/options.js` use `plugins.browserSync` object. Available options:
     forceEnabled: false,
 
     browserSync: {
+        logLevel: logLevel,
         files: [
             'specs/**/index.+(src|src.html)',
             'specs/**/*.css',
             'specs/**/*.js'
         ],
         logSnippet: false,
-        codeSync: false,
         open: false
     }
 }
@@ -45,6 +45,7 @@ In `user/options.js` use `plugins.browserSync` object. Available options:
 
 * Check the path of changed files and update only specific Spec URL
 * Add SourceJS DSS plugin support (refresh spec on CSS with docs change)
+* Add an argument parser, to define paths to watch with SourceJS start (eg `node app --bswatch base/my-spec/*.*`
 
 ___
 
